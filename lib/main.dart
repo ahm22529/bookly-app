@@ -58,6 +58,7 @@ class MyApp extends StatelessWidget {
         
         debugShowCheckedModeBanner: false,
         theme: ThemeData.dark().copyWith(
+          
             scaffoldBackgroundColor: kprimecolor,
             textTheme: GoogleFonts.montagaTextTheme(ThemeData.dark().textTheme)),
         routerConfig: router.routerr,
